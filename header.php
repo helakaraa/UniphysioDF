@@ -1,157 +1,189 @@
-<?php
-    if(!isset($_SESSION))
-    {
-        session_start();
-    }
-?>
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-1028805173781426",
-    enable_page_level_ads: true
-  });
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115476874-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!--[if gt IE 8]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+    <title>Admin Painel De Controle</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
 
-  gtag('config', 'UA-115476874-1');
-</script>
-<title>Ferreira Alves Fisioterapia Clinica</title>
-<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/stylesheets.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 7]>
+    <link href="css/ie.css" rel="stylesheet" type="text/css" />
+    <script type='text/javascript' src='js/plugins/other/lte-ie7.js'></script>
+    <![endif]-->
 
-    <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
-    <link rel="stylesheet" type="text/css" media="all" href="css/flexslider.css">
-    <link rel="stylesheet" href="css/testimonails-slider.css">
- 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Doctor Plus Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //Custom Theme files -->
-<!-- js -->
-<script src="js/jquery-1.11.1.min.js"></script> 
-<!-- //js -->	
-<!-- start-smoth-scrolling-->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>	
-<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>    
-
-<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-			});
-		});
-</script>
-<!--//end-smoth-scrolling-->
 </head>
 <body>
-	<!--header-->
-	<div class="header">
-		<div class="container">
-			<div class="header-logo">
-		
-			<div class="header-info">
-            
-			<a href="index.html"><h4><img src="images/logozied.png"  width="100" height="100"  alt="logo"/> Ferreira Alves Fisioterapia Especializada</h4></a> 
-           
-			</div>	
-			</div>
-			<div class="header-info">
-				<p>Serviço de Informações:</p>
-				<h4><a href="tel:+556135782017" style="color:white">61-3578-2017</a></h4>
-			</div>			
-			<div class="clearfix"> </div>
-		</div>	
-	</div>
-	<!--//header-->
-	<!--header-bottom-->
-	<div class="header-bottom">
-		<div class="container">
-			<!--top-nav-->
-			<div class="top-nav cl-effect-5">
-				<span class="menu-icon"><img src="images/menu-icon.png" alt=""/></span>		
-				<ul class="nav1">
-					<li><a href="index.php" class="active"><span data-hover="Home">Home</span></a></li>
-                <!-- <li><a href="about.php"> <span data-hover="Quem Somos">Quem Somos</span></a></li> -->
-					<li><a href="services.php"> <span data-hover="Especialidades">Especialidades</span></a></li>
-					<li><a href="add_patient.php"> <span data-hover="Pré-Agendamento">Pré-Agendamento</span></a></li>
-				
-                    <li><a href="blog.php"> <span data-hover="blog">Blog</span></a></li>
-                    <li><a href="convenios.php"> <span data-hover="Convênios">Convênios</span></a></li>
-                    <li><a href="contact.php"> <span data-hover="Contato">Contato</span></a></li>
-                    		<?php
+        <!--header-->
+    <div class="header">
+        <div class="container">
+            <div class="header-logo">
+            <!--    <a href="index.html"><img src="img/logo.png" alt="logo"/></a>-->
+
+            <div class="header-info">
+            <h4>Ferreira Alves Fisioterapia Admin</h4>
+            </div>  
+            </div>
+            <div class="header-info">
+                <p>Serviço de informação:</p>
+                <h4>61-1234-1234</h4>
+            </div>          
+            <div class="clearfix"> </div>
+        </div>  
+    </div>
+    <!--//header-->
+<div id="loader"><img src="img/loader.gif"/></div>
+<div class="wrapper">
+
+    <div class="sidebar">
+
+        <div class="top">
+            <a href="../index.php" class="" style="height: 64px;"></a>
+
+        </div>
+        <div class="nContainer">
+            <ul class="navigation">
+                <li> <a href="../index.php" class="blgreen">Home</a></li>
+                <li><a href="dashboard.php" class="blblue">Painel de Controle</a></li>
+                <li>
+                    <a href="#" class="blyellow">Slider</a>
+                    <div class="open"></div>
+                    <ul>
+                        <li><a href="new_slide.php">Novo Slide</a></li>
+                        <li><a href="slider.php">Exibir imagens de slide</a></li>
+                        <li><a href="edit_slide.php">Alterar Slide</a></li>
+                    </ul>
+                </li>
+                <li><a href="categories.php" class="blgreen">Categorias de Blog</a></li>
+                <li>
+                    <a href="#" class="blorange">Consultas</a>
+                    <div class="open"></div>
+                    <ul>
+                        <li><a href="add_consulta.php">Adicionar nova Consulta</a></li>
+                        <li><a href="orders.php">Todos os Consultas</a></li>
+                        <li><a href="Add_patient.php">Adicionar novo patiente</a></li>
+                        <li><a href="consultapatients.php">Consultas Patientes</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="bldblue">Blog</a>
+                    <div class="open"></div>
+                    <ul>
+                        <li><a href="new_product.php">Adicionar novo artigo</a></li>
+                        <li><a href="edit_product.php">Modificar detalhes do artigo</a></li>
+                        <li><a href="products.php">Listar todos os artigos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="blpurple">Testemunho</a>
+                    <div class="open"></div>
+                    <ul>
+                        <li><a href="new_testimonial.php">Registre Novo Testemunho</a></li>
+                        <li><a href="testimonial.php">Listar todos os Testemunhos</a></li>
+                        <li><a href="testimonial.php">Modificar Testemunho</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="blorange">Funcionarios</a>
+                    <div class="open"></div>
+                    <ul>
+                        <li><a href="new_staff.php">Adicionar novo funcionario</a></li>
+                        <li><a href="edit_staff.php">Modificar detalhes da equipe</a></li>
+                        <li><a href="staff.php">Listar toda a equipe</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="blyellow">Clinica</a>
+                    <div class="open"></div>
+                    <ul>
+                        <li><a href="about.php">Sobre nos</a></li>
+                        <li><a href="contact.php">Detalhes do contato</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="blred">Conta</a>
+                    <div class="open"></div>
+                    <ul>
+                        <li><a href="profile.php">Perfil</a></li>
+                        <li><a href="users.php">Todos os usuarios</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a class="close">
+                <span class="ico-remove"></span>
+            </a>
+        </div>
+        <div class="widget">
+        
+            <div id="txtDate" class="datepicker"></div>
+        </div>
+
+    </div>
+    
+
+    <div class="body">
+        <ul class="navigation">
+            <li>
+                <a href="../index.php" class="button">
+                    <div class="icon">
+                        <span class="ico-home"></span>
+                    </div>
+                    <div class="name">Home</div>
+                </a>
+            </li>
+            <li>
+                <a href="dashboard.php" class="button green">
+                    <div class="icon">
+                        <span class="ico-monitor"></span>
+                    </div>
+                    <div class="name">Painel</div>
+                </a>
+            </li>
+
+            <li>
+                <a href="products.php" class="button purple">
+                    <div class="icon">
+                        <span class="ico-file"></span>
+                    </div>
+                    <div class="name">Blog</div>
+                </a>
+            </li>
+            <li>
+                <a href="orders.php" class="button bldblue">
+                    <div class="icon">
+                        <span class="ico-group"></span>
+                    </div>
+                    <div class="name">Consultas</div>
+                </a>
+            </li>
+            <li>
+                <a href="staff.php" class="button yellow">
+                    <div class="icon">
+                        <span class="ico-user"></span>
+                    </div>
+                    <div class="name">Funcionarios</div>
+                </a>
+            </li>
+         
+            <li>
+                <a href="logout.php" class="button red">
+                    <div class="icon">
+                        <span class="ico-signout"></span>
+                    </div>
+                    <div class="name">Logout</div>
+                </a>
+            </li>
+
+        </ul>
 
 
-                if (isset($_SESSION['islogin'])) {
 
-                	 echo '<li><a href="admin/dashboard.php"> <span data-hover="Painel de AdministraÃ§Ã£o">Painel de AdministraÃ§Ã£o</span></a></li>';
-                	
-                    echo '<li><a href="admin/logout.php"> <span data-hover="logout">logout</span></a></li>';
-                }
-               
-              ?>
-                	
-				</ul>
-				<!-- script-for-menu -->
-				<script>
-				   $( "span.menu-icon" ).click(function() {
-					 $( "ul.nav1" ).slideToggle( 300, function() {
-					 // Animation complete.
-					  });
-					 });
-				</script>
-				<!-- /script-for-menu -->
-			</div>
-			<!--//top-nav-->
-			<form class="navbar-form navbar-right">
-				<div class="form-group">
-					 <form name="search_form" class="search_form" method="get" action="search.php">
-	
-                    <input id="search" class="form-control" type="text" name="q" value="<?php echo isset($_REQUEST['q'])?$_REQUEST['q']:""; ?>"/>
-					<button type="submit"  id="search-button"  class="btn btn-default"></button>
-				</div>
-			</form>
-                	
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<!--//header-bottom-->
+        <div class="content">
+
+
